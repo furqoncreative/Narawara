@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.facebook.drawee.view.DraweeView
+                android:id="@+id/about_logo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:paddingTop="@dimen/nav_header_vertical_spacing"
+                android:src="@mipmap/ic_launcher"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/app_name"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/ver_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:text="u"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.facebook.drawee.view.DraweeView
+                    android:layout_height="50dp"
+                    android:layout_width="50dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/sera5">
+
+                </com.facebook.drawee.view.DraweeView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="This application is brought to you by SERA5 Development Team, the student developer club which always learn how to code well every day!"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This application is using following third party libraries:"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/third_party_credits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gambar untuk latar halaman login dan Play Store adalah hasil karya Mardiansyah Nugraha, dapat dilihat di &lt;https://upload.wikimedia.org/wikipedia/commons/8/8c/Indonesia_di_Bukit_Kars_Citatah.jpg&gt;"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

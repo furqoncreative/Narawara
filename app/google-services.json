@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "304162137432",
+    "firebase_url": "https://pahlawan-sera5.firebaseio.com",
+    "project_id": "pahlawan-sera5",
+    "storage_bucket": "pahlawan-sera5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304162137432:android:4d23f6cdb3f16b75",
+        "android_client_info": {
+          "package_name": "com.sera5.narawara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304162137432-o42u0uniiteia1roq6qo34i3orpg94r8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sera5.narawara",
+            "certificate_hash": "a7394e6d33d83144a4c02ddd2d7e0b28918c94f6"
+          }
+        },
+        {
+          "client_id": "304162137432-1816i12liib026qrkshaivqfjma39cnp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sera5.narawara",
+            "certificate_hash": "b443af92aed255268d71bd4829487849272863b1"
+          }
+        },
+        {
+          "client_id": "304162137432-nruiqb0jqtd9v9qs2mqe3nig179p84fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANd71AMcPNhmScxEYEXUY1YpRzN04wiYo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304162137432-nruiqb0jqtd9v9qs2mqe3nig179p84fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
